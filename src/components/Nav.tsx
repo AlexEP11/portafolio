@@ -1,8 +1,8 @@
 export default function Nav() {
     return (
-        <nav className="flex gap-10 ">
+        <nav className=" gap-10 hidden lg:flex">
             <a
-                href="/"
+                href="#about"
                 className="hover:text-ocean font-bold transform transition-transform duration-300 hover:scale-125 font-montserrat"
             >
                 Sobre Mí
