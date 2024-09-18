@@ -2,7 +2,7 @@ export default function AboutMe() {
     return (
         <section id="about" className="bg-secundary mt-9 py-16">
             <div className="container mx-auto max-w-7xl px-7">
-                <h2 className="font-black font-montserrat text-dark_ocean text-3xl mb-4">
+                <h2 className="font-black font-montserrat text-dark_ocean text-3xl mb-4 text-center md:text-start">
                     Sobre Mi
                 </h2>
 

@@ -8,7 +8,7 @@ export default function Nav() {
                 Sobre Mí
             </a>
             <a
-                href="/"
+                href="#skills"
                 className="hover:text-ocean font-bold transform transition-transform duration-300 hover:scale-125 font-montserrat"
             >
                 Skills

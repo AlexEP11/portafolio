@@ -1,6 +1,7 @@
 import AboutMe from "./components/AboutMe";
 import IntroSection from "./components/IntroSection";
 import Nav from "./components/Nav";
+import Skills from "./components/Skills";
 
 function App() {
     return (
@@ -24,6 +25,7 @@ function App() {
                 <IntroSection />
             </div>
             <AboutMe />
+            <Skills />
         </>
     );
 }
