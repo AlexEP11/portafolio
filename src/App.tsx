@@ -1,12 +1,12 @@
 import AboutMe from "./components/AboutMe";
+import AcademicSection from "./components/AcademicSection";
 import IntroSection from "./components/IntroSection";
 import Nav from "./components/Nav";
-import Skills from "./components/Skills";
+import SkillsSection from "./components/SkillsSection";
 
 function App() {
     return (
         <>
-            {" "}
             <div className="container mx-auto max-w-7xl px-4">
                 <header className="flex lg:justify-between md:justify-center items-center mt-6">
                     <div className="flex items-center gap-2">
@@ -25,7 +25,8 @@ function App() {
                 <IntroSection />
             </div>
             <AboutMe />
-            <Skills />
+            <SkillsSection />
+            <AcademicSection />
         </>
     );
 }
