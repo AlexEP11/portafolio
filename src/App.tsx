@@ -1,35 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import IntroSection from "./components/IntroSection";
+import Nav from "./components/Nav";
 
 function App() {
-  const [count, setCount] = useState(0)
+    return (
+        <>
+            <header className="flex justify-between items-center mt-6">
+                <div className="flex items-center gap-2">
+                    <img
+                        src="/pod-enorme.png"
+                        alt="Logo de un robot pequeño"
+                        className="max-w-14"
+                    />
+                    <h2 className="font-bold text-xl font-montserrat">Alejandro Estrada Ponce</h2>
+                </div>
 
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+                <Nav />
+            </header>
+
+            <IntroSection />
+        </>
+    );
 }
 
-export default App
+export default App;
