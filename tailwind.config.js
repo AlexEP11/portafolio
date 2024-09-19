@@ -4,10 +4,10 @@ export default {
     theme: {
         extend: {
             colors: {
-                primary: "#F8F4F4",
-                secundary: "#EAF2FD",
-                ocean: "#526D82",
-                dark_ocean: "#27374D",
+                primary: "#EEEEEE ",
+                secundary: "#222831",
+                ocean: "#00ADB5",
+                light_dark: "#393E46",
             },
             fontFamily: {
                 roboto: ["Roboto", "sans-serif"],

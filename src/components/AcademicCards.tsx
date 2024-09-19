@@ -19,8 +19,8 @@ export default function AcademicCards({
                 className="rounded-lg h-72 w-72"
             />
             <figcaption className="flex flex-col font-roboto mt-5">
-                <h3 className="font-bold text-xl">{degree}</h3>
-                <p className="text-gray-600 font-bold">{duration}</p>
+                <h3 className="font-bold text-primary text-xl">{degree}</h3>
+                <p className="text-ocean font-bold">{duration}</p>
             </figcaption>
         </figure>
     );

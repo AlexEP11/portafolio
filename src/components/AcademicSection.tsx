@@ -2,11 +2,11 @@ import AcademicCards from "./AcademicCards";
 
 export default function AcademicSection() {
     return (
-        <section className="bg-secundary py-8">
+        <section id="formation" className="bg-secundary py-8">
             <article className="container mx-auto px-7 max-w-7xl">
-                <h1 className="text-center font-montserrat font-black text-dark_ocean text-3xl">
+                <h2 className="text-center font-montserrat font-black text-primary text-3xl">
                     Formación Académica
-                </h1>
+                </h2>
 
                 <div className="flex flex-col md:flex-row gap-6">
                     <AcademicCards

@@ -14,13 +14,13 @@ export default function Nav() {
                 Skills
             </a>
             <a
-                href="/"
+                href="#formation"
                 className="hover:text-ocean font-bold transform transition-transform duration-300 hover:scale-125 font-montserrat"
             >
                 Formación
             </a>
             <a
-                href="/"
+                href="#proyects"
                 className="hover:text-ocean font-bold transform transition-transform duration-300 hover:scale-125 font-montserrat"
             >
                 Proyectos

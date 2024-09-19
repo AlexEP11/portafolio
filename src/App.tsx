@@ -2,6 +2,7 @@ import AboutMe from "./components/AboutMe";
 import AcademicSection from "./components/AcademicSection";
 import IntroSection from "./components/IntroSection";
 import Nav from "./components/Nav";
+import ProyectSection from "./components/ProyectSection";
 import SkillsSection from "./components/SkillsSection";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
             <AboutMe />
             <SkillsSection />
             <AcademicSection />
+            <ProyectSection />
         </>
     );
 }

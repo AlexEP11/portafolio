@@ -1,3 +1,4 @@
+import AnimatedArrow from "./AnimatedArrow";
 import SocialNet from "./SocialNet";
 
 export default function IntroSection() {
@@ -6,11 +7,11 @@ export default function IntroSection() {
             <div>
                 <h1 className="text-3xl md:text-5xl font-bold font-montserrat">
                     Hola, mi nombre es Alejandro y soy{" "}
-                    <span className="text-dark_ocean font-black ">Desarrollador Web</span>
+                    <span className="text-ocean font-black ">Desarrollador Web</span>
                 </h1>
                 <p className="text-xl mt-6 mb-6 font-roboto text-justify">
                     Hola, soy Alejandro Estrada Ponce. Estudiante de{" "}
-                    <span className="text-dark_ocean font-bold">
+                    <span className="text-ocean font-bold">
                         Ingeniería en Sistemas Computacionales{" "}
                     </span>{" "}
                     apasionado por el desarrollo web. Siempre en busca de nuevas tecnologías y
@@ -39,11 +40,14 @@ export default function IntroSection() {
                     />
                 </ul>
             </div>
-            <img
-                src="/foto-perfil.jpg"
-                alt="Foto de Alejandro Estrada Ponce"
-                className="w-1/2 max-w-xs rounded-full "
-            />
+            <div className="flex flex-col md:items-center gap-10">
+                <img
+                    src="/foto-perfil.jpg"
+                    alt="Foto de Alejandro Estrada Ponce"
+                    className="md:w-64 w-1/2 max-w-xs rounded-full "
+                />
+                <AnimatedArrow />
+            </div>
         </section>
     );
 }
