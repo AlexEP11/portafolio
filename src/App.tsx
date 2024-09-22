@@ -1,9 +1,11 @@
 import AboutMe from "./components/AboutMe";
 import AcademicSection from "./components/AcademicSection";
+import ContactSection from "./components/ContactSection";
 import IntroSection from "./components/IntroSection";
 import Nav from "./components/Nav";
 import ProyectSection from "./components/ProyectSection";
 import SkillsSection from "./components/SkillsSection";
+import { ToastContainer } from "react-toastify";
 
 function App() {
     return (
@@ -29,6 +31,16 @@ function App() {
             <SkillsSection />
             <AcademicSection />
             <ProyectSection />
+            <ContactSection />
+
+            <footer className="container max-w-7xl px-7 mx-auto bg-primary py-3">
+                <p className="font-roboto font-bold text-center">
+                    Desarrollado por{" "}
+                    <span className="text-ocean font-bold">Alejandro Estrada Ponce</span> &copy;
+                </p>
+            </footer>
+
+            <ToastContainer />
         </>
     );
 }

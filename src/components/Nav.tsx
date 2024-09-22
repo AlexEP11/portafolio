@@ -25,6 +25,12 @@ export default function Nav() {
             >
                 Proyectos
             </a>
+            <a
+                href="#contact"
+                className="hover:text-ocean font-bold transform transition-transform duration-300 hover:scale-125 font-montserrat"
+            >
+                Contactame
+            </a>
         </nav>
     );
 }
