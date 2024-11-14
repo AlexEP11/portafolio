@@ -13,6 +13,12 @@ export default function ProyectSection() {
                 imgUrl="/encriptador.png"
                 nameProject="Encriptador de Texto"
             />
+            <ProyectCard
+                repo="https://github.com/AlexEP11/gestor-citas-cliente"
+                web="https://gestor-citas-barberos.vercel.app/"
+                imgUrl="/gestor-barberos.png"
+                nameProject="Gestor de Citas de Barberos"
+            />
         </main>
     );
 }
